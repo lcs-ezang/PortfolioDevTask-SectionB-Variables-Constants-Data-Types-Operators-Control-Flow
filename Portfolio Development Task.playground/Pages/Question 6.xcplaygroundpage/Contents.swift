@@ -27,7 +27,7 @@ if currentDistanceRun < targetDistanceInMeters * 0.15
     print("Great start, keep it up!")
 } else if currentDistanceRun >= targetDistanceInMeters * 0.45 && currentDistanceRun <= targetDistanceInMeters * 0.5
 {
-    print("You're almost at hlafway!")
+    print("You're almost at halfway!")
 } else if currentDistanceRun == targetDistanceInMeters * 0.5
 {
     print("Halfway there!")

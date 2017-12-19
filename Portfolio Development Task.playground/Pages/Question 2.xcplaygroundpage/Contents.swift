@@ -24,14 +24,15 @@
 
 let dateOfMeasurement = "December 19 2017"
 let timeOfMeasurement = "9:00"
-var currentHeightOfSnowInMilimeters = 50
+let currentHeightOfSnowInMilimeters = 50
 
 var totalSnowfallOverYear = 50
     
 print("I used constants for the date and time of measurement because at the time the")
-print("measurement was taken will never change. However, the current height of the snow will")
-print("and total snowfall will be constantly changed as they are updated to the new data,")
-print("making them better as variables.")
+print("measurement was taken will never change. And at the point the current height of the")
+print("snow is recorded, it doesn't change either. However, the")
+print("total snowfall will be constantly changed as they are updated according the new data,")
+print("making it better as a variable.")
 
 /*:
  ## Now share your understanding
