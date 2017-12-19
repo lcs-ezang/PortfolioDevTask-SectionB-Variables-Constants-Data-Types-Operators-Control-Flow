@@ -21,7 +21,18 @@
  
  */
 // Answer question 3 below
+var runTrainingCount = 73
+var headShavedCount = 12
+let runTrainingDonationAmount = 15.35
+let hairDonationAmount = 55.75
 
+var totalDonationAmount = (55.75 * Double(headShavedCount)) + (15.35 * Double(runTrainingCount))
+
+print("For runTrainingDonationAmount, hairDonationAmount and totalDonatinAmount, I used the")
+print("double variable type. This was because since they deal with money, and money has decimal")
+print("values, I had to use a double to represent those decimal values. Since runTrainingCount")
+print("and headShavedCount deal with the number of people, I used integers because there is no")
+print("such thing as half a person. There can only be an interger amount of people.")
 
 
 
