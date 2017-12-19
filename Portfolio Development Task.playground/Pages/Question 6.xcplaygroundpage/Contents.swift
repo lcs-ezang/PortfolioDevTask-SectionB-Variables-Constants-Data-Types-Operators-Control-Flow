@@ -19,6 +19,24 @@
  
  */
 // Answer question 6 below
+let targetDistanceInMeters = 500.0
+var currentDistanceRun = 60.0
+
+if currentDistanceRun < targetDistanceInMeters * 0.15
+{
+    print("Great start, keep it up!")
+} else if currentDistanceRun >= targetDistanceInMeters * 0.45 && currentDistanceRun <= targetDistanceInMeters * 0.5
+{
+    print("You're almost at hlafway!")
+} else if currentDistanceRun == targetDistanceInMeters * 0.5
+{
+    print("Halfway there!")
+} else if currentDistanceRun >= targetDistanceInMeters * 0.88 && currentDistanceRun <= targetDistanceInMeters {
+    print("Nearly done!")
+} else if currentDistanceRun == targetDistanceInMeters {
+    print("GREAT JOB! You're finished the run.")
+}
+
 
 
 /*:
